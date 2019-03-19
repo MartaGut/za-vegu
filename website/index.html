@@ -1,0 +1,155 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Probni Zadatak</title>
+  <meta name="description" content="Probni Zadatak">
+  <meta name="author" content="Marta Gut">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css\style.css">
+
+</head>
+
+<body>
+  <nav>
+      <div class="navigation" id="hamburgNav">
+          <a href=#><img id="logo" src="img/logo.jpg" alt="Logo" ></a>      
+          <a href=# class="navLink">Contact</a>
+          <a href=# class="navLink">Pricing</a>
+          <a href=# class="navLink">About</a>
+          <a href=# class="navLink active">What we do</a>
+          <a href=# class="hamburger" onclick="toggle()"><img class="hamburgerImg" src="img/hamburger.gif" alt="Menu Button" ></a>
+      </div>
+  </nav>
+
+
+
+  <header>
+      <div class="container">
+          <!-- <img class ="image" src="img/bigImage.jpg" alt="Header Image"> -->
+          <h1 class="headerText">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+          <button class="signUp">Sign up now &nbsp;&nbsp;&nbsp; &#10095;</button>
+      </div>
+  </header>
+
+
+
+  <section class="content">
+      <div>
+            <h1 class="pageHeading">I am page heading</h1>
+            <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
+                    sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
+                    magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
+                     quis nostrud exerci tation ullamcorper suscipit lobortis
+                      nisl ut aliquip ex ea commodo consequat. <a href=#>Duis autem vel
+                       eum</a> a iriure dolor in hendrerit in vulputate velit esse 
+                       molestie consequat, vel illum dolore eu feugiat nulla 
+                       facilisis at vero eros et accumsan et iusto odio dignissim 
+                       qui blandit praesent luptatum zzril delenit augue duis dolore
+                        te feugait nulla facilisi. </p>
+            <ul class="list">   
+                <li> Duis autem vel eum iriure dolor in hendrerit</li>
+                <li> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.</li>
+                <li>Lbh euismod tincidunt ut laoreet dolore</li>
+            </ul>
+
+      </div>
+
+      <div>
+            <h2>I am page subheading</h2>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+            <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. </p>
+      </div>
+  </section>
+
+
+
+  <section>
+    <div class="slide">
+    <div class="background fade" style="background-image: url(img/background1.jpg)">
+      <div class="slideText">
+          <h1>Itaque earum rerum hic tenetur</h1>
+          <p id="noDisplay5">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti</p>
+          <button id="noDisplay6" class="contactUs">Contact us &nbsp;&nbsp;&nbsp; &#10095;</button>
+      </div>
+    </div>
+
+    <div class="background fade" style="background-image: url(img/background2.jpg)">
+      <div class="slideText">
+            <h1>Nam libero tempore, cum soluta </h1>
+            <p id="noDisplay1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in urna quis neque porttitor sagittis.</p>
+            <button id="noDisplay2" class="contactUs">Contact us &nbsp;&nbsp;&nbsp; &#10095;</button>
+      </div>
+      </div>
+
+      <div class="background fade" style="background-image: url(img/background3.jpg)">
+      <div class="slideText">
+            <h1>Itaque earum rerum hic tenetur</h1>
+            <p id="noDisplay3">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+            <button id="noDisplay4" class="contactUs">Contact us &nbsp;&nbsp;&nbsp; &#10095;</button>
+      </div>
+      </div>
+
+
+      <a href=javascript:void(0) onclick="plusSlide(1)"><img src="img/Left.gif" alt="next" class="next"></a>
+      <a href=javascript:void(0) onclick="plusSlide(-1)"><img src="img/right.gif" alt="previous" class="previous" ></a>
+    </div>
+  </section>
+
+
+  <section class="news">
+      <h1 style="text-align:center">More news</h1>
+
+      <div class="blocks">
+          <div class="oneBlock">
+              <picture>
+                <source srcset="img/bridgeMobile.jpg" media="(max-width: 300px)">
+                <img src="img/bridge.jpg" class="newsPic">
+              </picture>
+              <p class="month">March</p>
+              <p class="newsTitle">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+          </div>    
+
+            <div class="oneBlock">
+                    <picture>
+                            <source srcset="img/girlMobile.jpg" media="(max-width: 300px)" style="max-width:70px;">
+                            <img src="img/girl.jpg" class="newsPic">
+                          </picture>
+                <p class="month">Jun</p>
+                <p class="newsTitle">Nemo enim ipsam voluptatem quia voluptas sit </p>
+            </div>         
+
+            <div class="oneBlock">
+                    <picture>
+                            <source srcset="img/mountainMobile.jpg" media="(max-width: 300px)">
+                            <img src="img/nature.jpg" class="newsPic">
+                          </picture>
+                <p class="month">September</p>
+                <p class="newsTitle">Neque porro quisquam est, qui dolorem ipsum quia dolor.</p>
+            </div>          
+      </div>
+
+        <div style="text-align:center"><button class="seeAll" src=#>See all media&nbsp;&nbsp;&nbsp; &#10095;</button></div>
+
+  </section>
+
+  <div class="line"></div>
+
+  <footer>
+             <span class="copyright">© Copyright <a href=#>Terms + Privacy</a></span>
+             <a href=# class="mediaButt"><img src="img/youtubeIcon.jpg"  alt="Youtube Icon"></a>
+             <a href=# class="mediaButt"><img src="img/twitterIcon.jpg"  alt="Twitter Icon"></a>
+             <a href=# class="mediaButt"><img src="img/facebookIcon.jpg"  alt="Facebook Icon"></a>
+             
+  </footer>
+
+
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "probnizad",
+  "version": "1.0.0",
+  "description": "Zadatak za Vegu",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartaGut/za-vegu.git"
+  },
+  "author": "Marta Gut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartaGut/za-vegu/issues"
+  },
+  "homepage": "https://github.com/MartaGut/za-vegu#readme"
+}
